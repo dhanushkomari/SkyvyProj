@@ -30,6 +30,7 @@ def bot_update(request, id):
     else:
         print('ojojfnsjodvgjosfdjgvndsfjovjd')
     # print(serializer.data)
+    # newly added comment checking for git pull
 
     return Response(serializer.data)
  
