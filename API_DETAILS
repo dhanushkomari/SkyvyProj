@@ -1,0 +1,8 @@
+
+########   TO UPDATE BOT DATS   ############
+import requests
+a = requests.post('http://127.0.0.1:8000/api/update/2', {"x": 500.0000, "y": 300.0000, "angle": 14.0000, 'delivering':True})
+
+
+##########  TO FETCH BOT DATA   ############
+b = requests.get('http://127.0.0.1:8000/api/bot/2')
