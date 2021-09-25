@@ -29,7 +29,7 @@ def bot_update(request, id):
         serializer.save()
     else:
         print('ojojfnsjodvgjosfdjgvndsfjovjd')
-    print(serializer.data)
+    # print(serializer.data)
 
     return Response(serializer.data)
  
